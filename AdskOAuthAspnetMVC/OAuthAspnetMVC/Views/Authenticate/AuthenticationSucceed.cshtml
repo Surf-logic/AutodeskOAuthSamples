@@ -1,0 +1,19 @@
+﻿@model OAuthAspnetMVC.Models.OAuthResult
+@{
+    ViewBag.Title = "AuthenticationSucceed";
+}
+
+<h2>AuthenticationSucceed</h2>
+
+<div>
+    user Id: 
+    @Html.DisplayFor(model => model.oauth_user_guid);
+    <br />
+    user name : 
+    @Html.DisplayFor(model => model.oauth_user_name);
+    <br />
+    session handle: 
+    @Html.DisplayFor(model => model.sessionHandle);
+    <br />
+</div>
+
