@@ -204,6 +204,7 @@
     <Content Include="Views\Web.config" />
     <Content Include="Views\Authenticate\AuthenticationFailed.cshtml" />
     <Content Include="Views\Authenticate\AuthenticationSucceed.cshtml" />
+    <Content Include="Views\Shared\_AdskLogOnPartial.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
